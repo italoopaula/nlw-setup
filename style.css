@@ -25,7 +25,7 @@ header {
 button {
     padding: 16px 24px;
     border-radius: 8px;
-    border: 1px solid #8B5CF6;
+    border: 1px solid #10B981;
     background-color: transparent;
     color: white;
 
@@ -37,6 +37,13 @@ button {
     font-weight: 600;
     font-size: 16px;
     line-height: 125%;
+
+    transition: ease 0.4s;
+}
+
+button:hover {
+    transform: scale(0.9);
+    cursor: pointer;
 }
 
 #form-habits {
@@ -102,8 +109,12 @@ input {
     background: #18181B;    
 }
 
+input:hover {
+    cursor: pointer;
+}
+
 input:checked {
-    background: #8B5CF6;
+    background: #10B981;
     border: 2px solid #27272A;
 }
 
